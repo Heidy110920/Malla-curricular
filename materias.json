@@ -1,0 +1,38 @@
+[
+  {
+    "codigo": "MAT101",
+    "nombre": "Matemáticas I",
+    "requisitos": [],
+    "aprobada": false
+  },
+  {
+    "codigo": "FIS101",
+    "nombre": "Física I",
+    "requisitos": [],
+    "aprobada": false
+  },
+  {
+    "codigo": "INF101",
+    "nombre": "Introducción a la Ingeniería",
+    "requisitos": [],
+    "aprobada": false
+  },
+  {
+    "codigo": "MAT102",
+    "nombre": "Matemáticas II",
+    "requisitos": ["MAT101"],
+    "aprobada": false
+  },
+  {
+    "codigo": "FIS102",
+    "nombre": "Física II",
+    "requisitos": ["FIS101", "MAT101"],
+    "aprobada": false
+  },
+  {
+    "codigo": "INF201",
+    "nombre": "Programación Básica",
+    "requisitos": ["INF101"],
+    "aprobada": false
+  }
+]
